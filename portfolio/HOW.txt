@@ -1,0 +1,8 @@
+npm create vite@latest
+-to install REact and javascript
+
+npm install 
+npm run dev
+-to run
+
+type --> rafce in .jsx file for react arrow function
