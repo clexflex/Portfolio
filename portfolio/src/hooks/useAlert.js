@@ -1,14 +1,14 @@
 import { useState } from 'react'
 
 const useAlert = () => {
-  const [alert, setalert] = useState({ show: false, text: '', type: 'danger'})
+  const [alert, setAlert] = useState({ show: false, text: '', type: 'danger'})
 
-  const showAlert = ({text, type = 'danger'}) => serAlert({
+  const showAlert = ({text, type = 'danger'}) => setAlert({
     show: true,
     text,
     type
   })
-  const hideAlert = () => serAlert({
+  const hideAlert = () => setAlert({
     show: false,
     text: '',
     type: 'danger'
